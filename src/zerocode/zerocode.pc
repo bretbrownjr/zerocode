@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+config=release
+
+Name: zerocode
+Description: A C++ library with no code
+Version: 1.0.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lzerocode
